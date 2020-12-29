@@ -22,6 +22,11 @@ PrecisionFarmingAddon.modules = {
         name = "farmlandResetCommand",
         filename = "farmlandResetCommandModule",
         object = "FarmlandResetCommandModule"
+    },
+    {
+        name = "mpConsoleCommands",
+        filename = "mpConsoleCommandsModule",
+        object = "MpConsoleCommandsModule"
     }
 }
 

@@ -22,10 +22,10 @@ function FarmlandResetCommandModule:debugResetFarmland(farmlandIndex)
             if g_farmlandManager.farmlands[farmlandIndex] ~= nil then
                 ResetFarmlandConsoleCommandEvent.sendEvent(farmlandIndex)
             else
-                g_logManager:error("The farmland parameter must be a valid farmland id")
+                g_logManager:error("The (farmland) parameter must be a valid farmland index")
             end
         else
-            g_logManager:error("The farmland parameter must be a number")
+            g_logManager:error("The (farmland) parameter must be a number")
         end
     else
         g_logManager:warning("Usage paResetFarmland (farmland)")
