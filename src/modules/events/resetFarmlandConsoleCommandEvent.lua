@@ -21,13 +21,13 @@ function ResetFarmlandConsoleCommandEvent:new(farmlandIndex)
     return e
 end
 
+function ResetFarmlandConsoleCommandEvent:writeStream(streamId, connection)
+    streamWriteInt32(streamId, self.farmlandIndex)
+end
+
 function ResetFarmlandConsoleCommandEvent:readStream(streamId, connection)
     self.farmlandIndex = streamReadInt32(streamId)
     self:run(connection)
-end
-
-function ResetFarmlandConsoleCommandEvent:writeStream(streamId, connection)
-    streamWriteInt32(streamId, self.farmlandIndex)
 end
 
 function ResetFarmlandConsoleCommandEvent:run(connection)

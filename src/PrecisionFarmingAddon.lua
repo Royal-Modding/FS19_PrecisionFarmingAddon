@@ -7,17 +7,18 @@
 
 InitRoyalMod(Utils.getFilename("rmod/", g_currentModDirectory))
 
+---@class PrecisionFarmingAddon : RoyalMod
 PrecisionFarmingAddon = RoyalMod.new(r_debug_r, false)
 PrecisionFarmingAddon.precisionFarmingMod = nil
 PrecisionFarmingAddon.precisionFarming = nil
 PrecisionFarmingAddon.precisionFarmingName = "FS19_precisionFarming"
 PrecisionFarmingAddon.modules = {
-    {
-        name = "phResetFix",
-        filename = "phResetFixModule",
-        object = "PhResetFixModule",
-        requiredVersion = "1.0.0.0"
-    },
+    --{
+    --    name = "phResetFix",
+    --    filename = "phResetFixModule",
+    --    object = "PhResetFixModule",
+    --    requiredVersion = "1.0.0.0"
+    --},
     {
         name = "farmlandResetCommand",
         filename = "farmlandResetCommandModule",
@@ -27,6 +28,12 @@ PrecisionFarmingAddon.modules = {
         name = "mpConsoleCommands",
         filename = "mpConsoleCommandsModule",
         object = "MpConsoleCommandsModule"
+    },
+    {
+        name = "geologist",
+        filename = "geologistModule",
+        object = "GeologistModule",
+        requiredVersion = "1.0.1.0"
     }
 }
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="${descVersion}">
 	<author>${author}</author>
 	<version>${version}</version>
@@ -10,7 +10,7 @@
 			<![CDATA[
 This mod is aimed to improve the overall experience while you play with Precision Farming DLC from GIANTS Software.
 Features:
-- Fixes PH map reset issue
+- Request for analysis of a land to a geologist
 - Adds multiplayer support for console commands
 - Console command to reset a farmland without the need to sell it
 
@@ -26,7 +26,7 @@ Available console commands:
 			<![CDATA[
 Diese mod zielt auf die Verbesserung der gesamten Erfahrung, während Sie spielen mit Precision Farming DLC von GIANTS Software.
 Funktionen:
-- Behebt das Problem des Zurücksetzens der PH-Karte
+- Anfrage zur Analyse eines Grundstücks an einen Geologen
 - Fügt Multiplayer-Unterstützung für Konsolenbefehle hinzu
 - Konsolenbefehl, um ein Ackerland zurückzusetzen, ohne es verkaufen zu müssen
 
@@ -42,13 +42,11 @@ Verfügbare Konsolenbefehle:
 			<![CDATA[
 Ce mod vise à améliorer l'expérience globale pendant que vous jouez avec le DLC de l'agriculture de précision de GIANTS Software.
 Caractéristiques :
-- Correction du problème de réinitialisation de la carte PH
+- Demande d'analyse d'un terrain à un géologue
 - Ajout de la prise en charge du multijoueur pour les commandes de la console
 - Commande de console pour réinitialiser une terre agricole sans avoir à la vendre
 
 Commandes de la console disponibles :
-
-Traduit avec www.DeepL.com/Translator (version gratuite)
 - paResetFarmland
 - paUncoverField
 - paUncoverAll
@@ -63,4 +61,31 @@ Traduit avec www.DeepL.com/Translator (version gratuite)
 		<sourceFile filename="rmod/Main.lua" />
 		<sourceFile filename="PrecisionFarmingAddon.lua" />
 	</extraSourceFiles>
+
+	<l10n>
+		<text name="ui_pfa_geologist">
+			<en>Request analysis of Field %d</en>
+			<de>Analyse für Feld %d anfordern</de>
+		</text>
+		<text name="ui_pfa_geologistAdditionalField">
+			<en>Request analysis of additional Field</en>
+			<de>Analyse für zusätzliches Feld anfordern</de>
+		</text>
+		<text name="pfa_geologistDialogTitle">
+			<en>Geologist quote</en>
+			<de>Geologist quote</de>
+		</text>
+		<text name="pfa_geologistDialogText">
+			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
+			<de>Der Geologe verlangt die Zahlung von %s als Festpreis, plus %s zur Deckung der Bohrkosten. Wenn die Ergebnisse vorliegen, müssen Sie außerdem weitere %s zur Deckung der Analysekosten durch das Labor zahlen.</de>
+		</text>
+		<text name="pfa_geologistDialogYesButton">
+			<en>Pay</en>
+			<de>Bezahlen</de>
+		</text>
+		<text name="info_pfa_geologistSoilAnalysis">
+			<en>Soil analysis</en>
+			<de>Bodenanalyse</de>
+		</text>
+	</l10n>
 </modDesc>

@@ -27,15 +27,15 @@ function MpConsoleCommandsEvent:new(command, param)
     return e
 end
 
+function MpConsoleCommandsEvent:writeStream(streamId, connection)
+    streamWriteInt32(streamId, self.command)
+    streamWriteInt32(streamId, self.param)
+end
+
 function MpConsoleCommandsEvent:readStream(streamId, connection)
     self.command = streamReadInt32(streamId)
     self.param = streamReadInt32(streamId)
     self:run(connection)
-end
-
-function MpConsoleCommandsEvent:writeStream(streamId, connection)
-    streamWriteInt32(streamId, self.command)
-    streamWriteInt32(streamId, self.param)
 end
 
 function MpConsoleCommandsEvent:run(connection)
