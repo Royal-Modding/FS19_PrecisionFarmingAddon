@@ -464,6 +464,33 @@ function RoyalMod.new(debug, mpSync)
         end
     end
 
+    mod.super.oldFunctions.HelpLineManagerloadMapData = HelpLineManager.loadMapData
+    HelpLineManager.loadMapData = function(self, xmlFile, missionInfo)
+        if mod.super.oldFunctions.HelpLineManagerloadMapData(self, xmlFile, missionInfo) then
+            if mod.onLoadHelpLine ~= nil then
+                local success, hlFilename = xpcall(mod.onLoadHelpLine, mod.super.errorHandle, mod)
+                if success and hlFilename ~= nil and type(hlFilename) == "string" and hlFilename ~= "" then
+                    self:loadFromXML(hlFilename)
+                    for ci = 1, #self.categories do
+                        local category = self.categories[ci]
+                        for pi = 1, #category.pages do
+                            local page = category.pages[pi]
+                            for ii = 1, #page.items do
+                                local item = page.items[ii]
+                                if item.type == HelpLineManager.ITEM_TYPE.IMAGE then
+                                    if item.value:sub(1, 10) == "$rmModDir/" then
+                                        item.value = "$" .. mod.directory .. item.value:sub(11)
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            return true
+        end
+    end
+
     addModEventListener(mod.super)
     return mod
 end

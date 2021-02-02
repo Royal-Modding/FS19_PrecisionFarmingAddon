@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<helpLines>
+    <category title="$l10n_pfa_helpHeader">
+        <page title="$l10n_pfa_helpTitle_01">
+            <item type="text" value="$l10n_pfa_helpText_01_p1" />
+            <item type="image" value="$rmModDir/gui/helplineImages01.png" imageUVs="0px 1px 1024px 208px" />
+            <item type="image" value="$rmModDir/gui/helplineImages01.png" imageUVs="0px 205px 1024px 208px" />
+            <item type="text" value="$l10n_pfa_helpText_01_p2" />
+        </page>
+    </category>
+</helpLines>

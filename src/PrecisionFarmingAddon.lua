@@ -80,3 +80,7 @@ end
 
 function PrecisionFarmingAddon:onValidateVehicleTypes(vehicleTypeManager, addSpecialization, addSpecializationBySpecialization, addSpecializationByVehicleType, addSpecializationByFunction)
 end
+
+function PrecisionFarmingAddon:onLoadHelpLine()
+    return self.directory .. "gui/helpLine.xml"
+end

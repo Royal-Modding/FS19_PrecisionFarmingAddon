@@ -14,12 +14,7 @@ Features:
 - Adds multiplayer support for console commands
 - Console command to reset a farmland without the need to sell it
 
-Available console commands:
-- paResetFarmland
-- paUncoverField
-- paUncoverAll
-- paReduceCoverState
-- paReduceCoverStateAll
+All the additional information you may need about these features, can be found inside the in-game help.
 ]]>
 		</en>
 		<de>
@@ -30,12 +25,7 @@ Funktionen:
 - Fügt Multiplayer-Unterstützung für Konsolenbefehle hinzu
 - Konsolenbefehl, um ein Ackerland zurückzusetzen, ohne es verkaufen zu müssen
 
-Verfügbare Konsolenbefehle:
-- paResetFarmland
-- paUncoverField
-- paUncoverAll
-- paReduceCoverState
-- paReduceCoverStateAll
+Alle zusätzlichen Informationen, die Sie über diese Funktionen benötigen, finden Sie in der spielinternen Hilfe.
 ]]>
 		</de>
 		<fr>
@@ -46,12 +36,7 @@ Caractéristiques :
 - Ajout de la prise en charge du multijoueur pour les commandes de la console
 - Commande de console pour réinitialiser une terre agricole sans avoir à la vendre
 
-Commandes de la console disponibles :
-- paResetFarmland
-- paUncoverField
-- paUncoverAll
-- paReduceCoverState
-- paReduceCoverStateAll
+Toutes les informations supplémentaires dont vous pourriez avoir besoin sur ces fonctionnalités se trouvent dans l'aide en ligne.
 ]]>
 		</fr>
 	</description>
@@ -73,7 +58,7 @@ Commandes de la console disponibles :
 		</text>
 		<text name="pfa_geologistDialogTitle">
 			<en>Geologist quote</en>
-			<de>Geologist quote</de>
+			<de>Geologe Zitat</de>
 		</text>
 		<text name="pfa_geologistDialogText">
 			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
@@ -86,6 +71,21 @@ Commandes de la console disponibles :
 		<text name="info_pfa_geologistSoilAnalysis">
 			<en>Soil analysis</en>
 			<de>Bodenanalyse</de>
+		</text>
+		<text name="pfa_helpHeader">
+			<en>Precision Farming Addon</en>
+		</text>
+		<text name="pfa_helpTitle_01">
+			<en>Geologist</en>
+			<de>Geologe</de>
+		</text>
+		<text name="pfa_helpText_01_p1">
+			<en>The geologist can analyze the soil of an entire land area for a fair fee.</en>
+			<de>Der Geologe kann gegen ein angemessenes Honorar den Boden eines ganzen Geländes analysieren.</de>
+		</text>
+		<text name="pfa_helpText_01_p2">
+			<en>The geologist quote will pop up.</en>
+			<de>Das Angebot des Geologen wird eingeblendet.</de>
 		</text>
 	</l10n>
 </modDesc>
