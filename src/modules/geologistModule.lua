@@ -1,9 +1,8 @@
---
--- ${title}
---
--- @author ${author}
--- @version ${version}
--- @date 27/01/2021
+--- ${title}
+
+---@author ${author}
+---@version r_version_r
+---@date 27/01/2021
 
 GeologistModule = {}
 

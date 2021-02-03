@@ -1,9 +1,8 @@
---
--- ${title}
---
--- @author ${author}
--- @version ${version}
--- @date 29/01/2021
+--- ${title}
+
+---@author ${author}
+---@version r_version_r
+---@date 29/01/2021
 
 GeologistAnalysisEvent = {}
 local GeologistAnalysisEvent_mt = Class(GeologistAnalysisEvent, Event)
