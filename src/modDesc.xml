@@ -61,7 +61,7 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 		<text name="pfa_geologistDialogTitle">
 			<en>Geologist quote</en>
 			<de>Geologe Zitat</de>
-			<fr>Devis de l'analyse de sol</fr>
+			<fr>Devis pour l'analyse de sol</fr>
 		</text>
 		<text name="pfa_geologistDialogText">
 			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
