@@ -30,7 +30,7 @@ Alle zusätzlichen Informationen, die Sie über diese Funktionen benötigen, fin
 		</de>
 		<fr>
 			<![CDATA[
-Ce mod vise à améliorer l'expérience utilisateur lorsque vous jouez avec le DLC de agriculture de précision de GIANTS Software.
+Ce mod vise à améliorer l'expérience utilisateur lorsque vous jouez avec le DLC agriculture de précision de GIANTS Software.
 Fonctionnalités :
 - Demander l'analyse d'une parcelle complète sous forme de service
 - Ajout de la prise en charge du multijoueur pour les commandes de la console
@@ -61,12 +61,12 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 		<text name="pfa_geologistDialogTitle">
 			<en>Geologist quote</en>
 			<de>Geologe Zitat</de>
-			<fr>Devis pour l'analyse de sol</fr>
+			<fr>Devis</fr>
 		</text>
 		<text name="pfa_geologistDialogText">
 			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
 			<de>Der Geologe verlangt die Zahlung von %s als Festpreis, plus %s zur Deckung der Bohrkosten. Wenn die Ergebnisse vorliegen, müssen Sie außerdem weitere %s zur Deckung der Analysekosten durch das Labor zahlen.</de>
-			<fr>La société d'analyse de sol vous propose un forfait fixe de %s et un coût %s pour réaliser les prélèvements. De plus, lorsque les résultats seront prêts, vous aurez à payer %s correspondant au prix l'analyse en laboratoire.</fr>
+			<fr>La société d'analyse de sol applique un forfait fixe de %s ainsi qu'un coût de %s pour réaliser les prélèvements. Une fois les résultats obtenus, vous aurez à payer %s correspondant au prix de l'analyse en laboratoire.</fr>
 		</text>
 		<text name="pfa_geologistDialogYesButton">
 			<en>Pay</en>
@@ -89,7 +89,7 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 		<text name="pfa_helpText_01_p1">
 			<en>The geologist can analyze the soil of an entire land area for a fair fee.</en>
 			<de>Der Geologe kann gegen ein angemessenes Honorar den Boden eines ganzen Geländes analysieren.</de>
-			<fr>Une société spécialisée peut réaliser pour vous l'analyse de sol d'une parcelle complète.</fr>
+			<fr>Une société spécialisée peut réaliser l'analyse de sol d'une parcelle complète.</fr>
 		</text>
 		<text name="pfa_helpText_01_p2">
 			<en>The geologist quote will pop up.</en>
