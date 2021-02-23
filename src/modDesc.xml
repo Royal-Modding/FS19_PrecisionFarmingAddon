@@ -70,7 +70,7 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
 			<de>Der Geologe verlangt die Zahlung von %s als Festpreis, plus %s zur Deckung der Bohrkosten. Wenn die Ergebnisse vorliegen, müssen Sie außerdem weitere %s zur Deckung der Analysekosten durch das Labor zahlen.</de>
 			<fr>La société d'analyse de sol applique un forfait fixe de %s ainsi qu'un coût de %s pour réaliser les prélèvements. Une fois les résultats obtenus, vous aurez à payer %s correspondant au prix de l'analyse en laboratoire.</fr>
-			<pl>Geolog wymaga uiszczenia %s jako stałej opłaty, plus %s na pokrycie kosztów wiercenia. Ponadto, gdy wyniki będą gotowe, będziesz musiał zapłacić kolejne %s na pokrycie kosztów analizy przez laboratorium.
+			<pl>Geolog wymaga uiszczenia %s jako stałej opłaty, plus %s na pokrycie kosztów wiercenia. Ponadto, gdy wyniki będą gotowe, będziesz musiał zapłacić kolejne %s na pokrycie kosztów analizy przez laboratorium.</pl>
 		</text>
 		<text name="pfa_geologistDialogYesButton">
 			<en>Pay</en>
