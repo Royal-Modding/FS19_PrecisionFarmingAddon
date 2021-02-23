@@ -52,31 +52,37 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 			<en>Request analysis of Field %d</en>
 			<de>Analyse für Feld %d anfordern</de>
 			<fr>Demander une analyse de sol pour la parcelle %d</fr>
+			<pl>Poproś o analizę pola %d</pl>
 		</text>
 		<text name="ui_pfa_geologistAdditionalField">
 			<en>Request analysis of additional Field</en>
 			<de>Analyse für zusätzliches Feld anfordern</de>
 			<fr>Demander une analyse de sol pour une parcelle supplémentaire</fr>
+			<pl>Poproś o analizę dodatkowego pola</pl>
 		</text>
 		<text name="pfa_geologistDialogTitle">
 			<en>Geologist quote</en>
 			<de>Geologe Zitat</de>
 			<fr>Devis</fr>
+			<pl>Informacja od geologa</pl>
 		</text>
 		<text name="pfa_geologistDialogText">
 			<en>The geologist requires the payment of %s as a fixed fee, plus %s to cover the drilling costs. In addition, when the results will be ready, you will have to pay another %s to cover the analysis costs by the laboratory.</en>
 			<de>Der Geologe verlangt die Zahlung von %s als Festpreis, plus %s zur Deckung der Bohrkosten. Wenn die Ergebnisse vorliegen, müssen Sie außerdem weitere %s zur Deckung der Analysekosten durch das Labor zahlen.</de>
 			<fr>La société d'analyse de sol applique un forfait fixe de %s ainsi qu'un coût de %s pour réaliser les prélèvements. Une fois les résultats obtenus, vous aurez à payer %s correspondant au prix de l'analyse en laboratoire.</fr>
+			<pl>Geolog wymaga uiszczenia %s jako stałej opłaty, plus %s na pokrycie kosztów wiercenia. Ponadto, gdy wyniki będą gotowe, będziesz musiał zapłacić kolejne %s na pokrycie kosztów analizy przez laboratorium.
 		</text>
 		<text name="pfa_geologistDialogYesButton">
 			<en>Pay</en>
 			<de>Bezahlen</de>
 			<fr>Payer</fr>
+			<pl>Zapłać</pl>
 		</text>
 		<text name="info_pfa_geologistSoilAnalysis">
 			<en>Soil analysis</en>
 			<de>Bodenanalyse</de>
 			<fr>Analyse de sol</fr>
+			<pl>Analiza gleby</pl>
 		</text>
 		<text name="pfa_helpHeader">
 			<en>Precision Farming Addon</en>
@@ -85,16 +91,19 @@ Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités
 			<en>Geologist</en>
 			<de>Geologe</de>
 			<fr>Service d'analyse de sol</fr>
+			<pl>Geolog</pl>
 		</text>
 		<text name="pfa_helpText_01_p1">
 			<en>The geologist can analyze the soil of an entire land area for a fair fee.</en>
 			<de>Der Geologe kann gegen ein angemessenes Honorar den Boden eines ganzen Geländes analysieren.</de>
 			<fr>Une société spécialisée peut réaliser l'analyse de sol d'une parcelle complète.</fr>
+			<pl>Geolog może przeprowadzić analizę gleby na całym obszarze lądowym za odpowiednią opłatą.</pl>
 		</text>
 		<text name="pfa_helpText_01_p2">
 			<en>The geologist quote will pop up.</en>
 			<de>Das Angebot des Geologen wird eingeblendet.</de>
 			<fr>Le devis de la société d'analyse de sol apparaîtra</fr>
+			<pl>Wyświetla ofertę goeologa</pl>
 		</text>
 	</l10n>
 </modDesc>
