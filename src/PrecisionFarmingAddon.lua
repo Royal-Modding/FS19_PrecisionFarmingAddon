@@ -12,12 +12,6 @@ PrecisionFarmingAddon.precisionFarmingMod = nil
 PrecisionFarmingAddon.precisionFarming = nil
 PrecisionFarmingAddon.precisionFarmingName = "FS19_precisionFarming"
 PrecisionFarmingAddon.modules = {
-    --{
-    --    name = "phResetFix",
-    --    filename = "phResetFixModule",
-    --    object = "PhResetFixModule",
-    --    requiredVersion = "1.0.0.0"
-    --},
     {
         name = "farmlandResetCommand",
         filename = "farmlandResetCommandModule",
@@ -32,25 +26,27 @@ PrecisionFarmingAddon.modules = {
         name = "geologist",
         filename = "geologistModule",
         object = "GeologistModule",
-        requiredVersion = "1.0.1.0"
+        requiredVersion = "1.0.2.0"
     }
 }
 
 function PrecisionFarmingAddon:initialize()
     -- check precision farming
-    local pfFound = false
+    local found = false
 
-    self.precisionFarmingMod = g_modManager:getModByName(self.precisionFarmingName)
-    if self.precisionFarmingMod ~= nil then
-        self.precisionFarmingName = self.precisionFarmingMod.modName
-        self.precisionFarming = getfenv(0)[self.precisionFarmingName]
-        if self.precisionFarming ~= nil and self.precisionFarming.g_precisionFarming ~= nil then
-            g_precisionFarming = self.precisionFarming.g_precisionFarming
-            pfFound = true
+    if g_modIsLoaded[self.precisionFarmingName] then
+        self.precisionFarmingMod = g_modManager:getModByName(self.precisionFarmingName)
+        if self.precisionFarmingMod ~= nil then
+            self.precisionFarmingName = self.precisionFarmingMod.modName
+            self.precisionFarming = getfenv(0)[self.precisionFarmingName]
+            if self.precisionFarming ~= nil and self.precisionFarming.g_precisionFarming ~= nil then
+                g_precisionFarming = self.precisionFarming.g_precisionFarming
+                found = true
+            end
         end
     end
 
-    if pfFound then
+    if found then
         self.initialized = true
         local modulesDirectory = Utils.getFilename("modules/", self.directory)
         for _, m in pairs(self.modules) do
@@ -73,7 +69,7 @@ function PrecisionFarmingAddon:initialize()
             end
         end
     else
-        g_logManager:error("[%s] Can't find %s, this mod /dlc is required to make %s work.", self.name, self.precisionFarmingName, self.name)
+        g_logManager:error("[%s] Can't find %s, this mod / dlc is required to allow %s to work.", self.name, self.precisionFarmingName, self.name)
     end
 end
 

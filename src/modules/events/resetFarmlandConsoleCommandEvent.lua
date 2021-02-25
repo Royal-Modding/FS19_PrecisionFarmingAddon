@@ -20,7 +20,7 @@ function ResetFarmlandConsoleCommandEvent:new(farmlandIndex)
     return e
 end
 
-function ResetFarmlandConsoleCommandEvent:writeStream(streamId, connection)
+function ResetFarmlandConsoleCommandEvent:writeStream(streamId, _)
     streamWriteInt32(streamId, self.farmlandIndex)
 end
 
@@ -29,7 +29,7 @@ function ResetFarmlandConsoleCommandEvent:readStream(streamId, connection)
     self:run(connection)
 end
 
-function ResetFarmlandConsoleCommandEvent:run(connection)
+function ResetFarmlandConsoleCommandEvent:run(_)
     g_precisionFarming.soilMap:onFarmlandStateChanged(self.farmlandIndex, FarmlandManager.NO_OWNER_FARM_ID)
 end
 

@@ -20,7 +20,7 @@ function GeologistAnalysisEvent:new(farmlandId)
     return e
 end
 
-function GeologistAnalysisEvent:writeStream(streamId, connection)
+function GeologistAnalysisEvent:writeStream(streamId, _)
     streamWriteInt32(streamId, self.farmlandId)
 end
 
@@ -29,7 +29,7 @@ function GeologistAnalysisEvent:readStream(streamId, connection)
     self:run(connection)
 end
 
-function GeologistAnalysisEvent:run(connection)
+function GeologistAnalysisEvent:run(_)
     GeologistModule:analyseFarmland(self.farmlandId)
 end
 

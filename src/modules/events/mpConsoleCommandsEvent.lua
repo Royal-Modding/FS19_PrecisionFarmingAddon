@@ -26,7 +26,7 @@ function MpConsoleCommandsEvent:new(command, param)
     return e
 end
 
-function MpConsoleCommandsEvent:writeStream(streamId, connection)
+function MpConsoleCommandsEvent:writeStream(streamId, _)
     streamWriteInt32(streamId, self.command)
     streamWriteInt32(streamId, self.param)
 end
@@ -37,6 +37,7 @@ function MpConsoleCommandsEvent:readStream(streamId, connection)
     self:run(connection)
 end
 
+---@param connection any
 function MpConsoleCommandsEvent:run(connection)
     if not connection:getIsServer() then
         if self.command == MpConsoleCommandsEvent.paUncoverField then

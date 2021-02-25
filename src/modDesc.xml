@@ -15,6 +15,12 @@ Features:
 - Console command to reset a farmland without the need to sell it
 
 All the additional information you may need about these features, can be found inside the in-game help.
+
+Changelog ${version}:
+- Added compatibility with latest Precision Farming version
+- Added new translations
+- Improved old translations
+- Improved Precision Farming detection
 ]]>
 		</en>
 		<de>
@@ -26,6 +32,12 @@ Funktionen:
 - Konsolenbefehl, um ein Ackerland zurückzusetzen, ohne es verkaufen zu müssen
 
 Alle zusätzlichen Informationen, die Sie über diese Funktionen benötigen, finden Sie in der spielinternen Hilfe.
+
+Changelog ${version}:
+- Kompatibilität mit der neuesten Precision Farming hinzugefügt
+- Neue Übersetzungen hinzugefügt
+- Verbesserte alte Übersetzungen
+- Verbesserte Erkennung von Precision Farming
 ]]>
 		</de>
 		<fr>
@@ -37,6 +49,12 @@ Fonctionnalités :
 - Commande de console pour réinitialiser une parcelle sans avoir à la vendre
 
 Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités se trouvent dans la rubrique Assistance du jeu.
+
+Changelog ${version}:
+- Ajout de la compatibilité avec la dernière version de Precision Farming
+- Ajout de nouvelles traductions
+- Amélioration des anciennes traductions
+- Détection améliorée de l'agriculture de précision
 ]]>
 		</fr>
 	</description>
