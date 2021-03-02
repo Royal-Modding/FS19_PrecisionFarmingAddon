@@ -121,7 +121,7 @@ Changelog ${version}:
 			<en>The geologist quote will pop up.</en>
 			<de>Das Angebot des Geologen wird eingeblendet.</de>
 			<fr>Le devis de la société d'analyse de sol apparaîtra</fr>
-			<pl>Wyświetla ofertę goeologa</pl>
+			<pl>Wyświetla ofertę geologa</pl>
 		</text>
 	</l10n>
 </modDesc>
