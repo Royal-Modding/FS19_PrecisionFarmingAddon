@@ -26,7 +26,7 @@ PrecisionFarmingAddon.modules = {
         name = "geologist",
         filename = "geologistModule",
         object = "GeologistModule",
-        requiredVersion = "1.0.2.0"
+        requiredVersion = "1.0.2.1"
     }
 }
 
