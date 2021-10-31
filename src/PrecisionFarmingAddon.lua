@@ -38,7 +38,7 @@ function PrecisionFarmingAddon:initialize()
         self.precisionFarmingMod = g_modManager:getModByName(self.precisionFarmingName)
         if self.precisionFarmingMod ~= nil then
             self.precisionFarmingName = self.precisionFarmingMod.modName
-            self.precisionFarming = getfenv(0)[self.precisionFarmingName]
+            self.precisionFarming = self.gameEnv[self.precisionFarmingName]
             if self.precisionFarming ~= nil and self.precisionFarming.g_precisionFarming ~= nil then
                 g_precisionFarming = self.precisionFarming.g_precisionFarming
                 found = true
@@ -54,8 +54,10 @@ function PrecisionFarmingAddon:initialize()
                 source(string.format("%s%s.lua", modulesDirectory, m.filename))
                 if self.modEnv[m.object] ~= nil then
                     m.object = self.modEnv[m.object]
+---@diagnostic disable-next-line: undefined-field
                     if m.object.load ~= nil then
                         g_logManager:devInfo("[%s] Initializing module '%s'.", self.name, m.name)
+---@diagnostic disable-next-line: undefined-field
                         m.object:load(m.name, self, modulesDirectory)
                         g_logManager:devInfo("[%s] Module '%s' initialized.", self.name, m.name)
                     else

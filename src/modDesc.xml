@@ -17,10 +17,7 @@ Features:
 All the additional information you may need about these features, can be found inside the in-game help.
 
 Changelog ${version}:
-- Added compatibility with latest Precision Farming version
-- Added new translations
-- Improved old translations
-- Improved Precision Farming detection
+- Added compatibility with latest Precision Farming version (1.0.2.1)
 ]]>
 		</en>
 		<de>
@@ -34,10 +31,7 @@ Funktionen:
 Alle zusätzlichen Informationen, die Sie über diese Funktionen benötigen, finden Sie in der spielinternen Hilfe.
 
 Changelog ${version}:
-- Kompatibilität mit der neuesten Precision Farming hinzugefügt
-- Neue Übersetzungen hinzugefügt
-- Verbesserte alte Übersetzungen
-- Verbesserte Erkennung von Precision Farming
+- Kompatibilität mit der neuesten Precision Farming-Version (1.0.2.1) hinzugefügt
 ]]>
 		</de>
 		<fr>
@@ -51,10 +45,7 @@ Fonctionnalités :
 Toutes les informations dont vous pourriez avoir besoin sur ces fonctionnalités se trouvent dans la rubrique Assistance du jeu.
 
 Changelog ${version}:
-- Ajout de la compatibilité avec la dernière version de Precision Farming
-- Ajout de nouvelles traductions
-- Amélioration des anciennes traductions
-- Détection améliorée de l'agriculture de précision
+- Ajout de la compatibilité avec la dernière version de Precision Farming (1.0.2.1)
 ]]>
 		</fr>
 		<ru>
@@ -66,11 +57,6 @@ Changelog ${version}:
 - Консольная команда для сброса сельхозугодий без необходимости их продажи
 
 Всю дополнительную информацию об этих функциях, которая может вам понадобиться, можно найти во внутриигровой справке.
-Changelog ${version}:
-- Добавлена совместимость с последней версией Precision Farming
-- Добавлены новые переводы
-- Улучшенны старые переводы
-- Улучшенно обнаружение Precision Farming
 ]]>
 		</ru>
 	</description>
